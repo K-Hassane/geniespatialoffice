@@ -1,12 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Append Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>Génie Spatial Office — SIG &amp; Solutions Géospatiales au Burkina Faso</title>
+  <meta name="description" content="Génie Spatial Office SARL (GESPAO) est un cabinet spécialisé en Système d'Information Géographique (SIG), télédétection et solutions géospatiales au Burkina Faso. Formation, études, conseil et développement de solutions sur mesure.">
+  <meta name="keywords" content="SIG, géospatial, télédétection, cartographie, Burkina Faso, Ouagadougou, GESPAO, formation SIG, QGIS, ArcGIS, Google Earth Engine, géomatique">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Génie Spatial Office — Solutions Géospatiales au Burkina Faso">
+  <meta property="og:description" content="Cabinet spécialisé en SIG, télédétection et solutions géospatiales innovantes au Burkina Faso.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://geniespatialoffice.com">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -27,13 +33,6 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Append
-  * Template URL: https://bootstrapmade.com/append-bootstrap-website-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="index-page">
@@ -42,47 +41,21 @@
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename"> <img src="assets/img/ICONE GSO.png" alt="" data-aos="fade-in">Génie Spatial Office</h1><span>.</span>
+        <h1 class="sitename"> <img src="assets/img/ICONE GSO.png" alt="Logo GESPAO" data-aos="fade-in">Génie Spatial Office</h1><span>.</span>
       </a>
-    
-
 
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html#hero" class="active">Accueil</a></li>
           <li><a href="index.html#about">À propos de nous</a></li>
           <li><a href="index.html#services">Services</a></li>
-          <li><a href="index.html#portfolio">Projet</a></li>
-          <li><a href="index.html#team">Equipe</a></li>
-         
-<!--
-          <li><a href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
- -->
+          <li><a href="index.html#portfolio">Projets</a></li>
           <li><a href="index.html#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>      
+      </nav>
 
-      <a class="btn-getstarted" href="index.html#about">Get Started</a>
+      <a class="btn-getstarted" href="index.html#contact">Commencer</a>
 
     </div>
   </header>
@@ -92,141 +65,159 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <img src="assets/img/acceuil.jpg" alt="" data-aos="fade-in">
+      <img src="assets/img/acceuil.jpg" alt="Génie Spatial Office — Solutions Géospatiales au Burkina Faso" data-aos="fade-in">
+      <div class="hero-overlay"></div>
 
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10">
-            <h2 data-aos="fade-up" data-aos-delay="100">Bienvenue chez Genie Spatial Office (GESPAO)</h2>
-            <p data-aos="fade-up" data-aos-delay="200">Nous offrons des services en géo-informatique et SIG, ainsi que des solutions cartographiques sur mesure.</p>
-          </div>
-          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="300">
-            <!-- <form action="forms/newsletter.php" method="post" class="php-email-form">
-              <div class="sign-up-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
-            </form>-->
+      <div class="container hero-container">
+        <div class="row align-items-center">
+          <div class="col-lg-8 col-xl-7">
+
+            <!-- Badge localisation -->
+            <div class="hero-badge-pill" data-aos="fade-down" data-aos-delay="50">
+              <i class="bi bi-geo-alt-fill"></i>&nbsp; Ouagadougou, Burkina Faso
+            </div>
+
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+              Experts en <span class="hero-highlight">SIG</span> &amp; <br>
+              Technologies <span class="hero-highlight">Géospatiales</span>
+            </h1>
+
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+              GESPAO vous accompagne dans vos projets de cartographie, télédétection et analyse spatiale avec des solutions innovantes et personnalisées, adaptées aux réalités de l'Afrique de l'Ouest.
+            </p>
+
+            <!-- Boutons CTA -->
+            <div class="hero-actions-row" data-aos="fade-up" data-aos-delay="300">
+              <a href="#services" class="hero-btn-filled">
+                <i class="bi bi-grid-3x3-gap-fill"></i> Découvrir nos services
+              </a>
+              <a href="#contact" class="hero-btn-ghost">
+                <i class="bi bi-send-fill"></i> Nous contacter
+              </a>
+            </div>
+
+            <!-- Mini stats -->
+            <div class="hero-stats-row" data-aos="fade-up" data-aos-delay="400">
+              <div class="hero-kpi">
+                <strong>50+</strong>
+                <span>Clients satisfaits</span>
+              </div>
+              <div class="hero-kpi-sep"></div>
+              <div class="hero-kpi">
+                <strong>80+</strong>
+                <span>Projets réalisés</span>
+              </div>
+              <div class="hero-kpi-sep"></div>
+              <div class="hero-kpi">
+                <strong>3+</strong>
+                <span>Années d'expertise</span>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
 
     </section><!-- /Hero Section -->
 
-    <!-- Clients Section -->
-    <section id="clients" class="clients section">
 
-      <div class="container" data-aos="fade-up">
-
-        <div class="row gy-4">
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Clients Section -->
 
     <!-- About Section -->
-    <section id="about" class="about section light-background">
+    <section id="about" class="about section">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row align-items-xl-center gy-5">
+      <div class="container">
 
-          <div class="col-xl-5 content">
-            <h3>À propos de nous</h3>
-            <h2>QUI SOMMES NOUS</h2>
-            <style>
-              p {
-                  text-align: justify;
-              }
-          </style>
-            <p class="justify" >Génie Spatial Office SARL est un cabinet d'étude spécilisé la promotion des Système Informatique de Géographique (SIG) et de 
-              la télédétection. Dépuis as création, l'entreorise s'engager à fournir des solution géospatiales innovantes et personnalisées,
-               tout en mettant l'accent sur l'excellence, l'innovation et la collaboration. </p>
+        <!-- En-tête de section -->
+        <div class="about-intro row align-items-center gy-4" data-aos="fade-up">
+          <div class="col-lg-6">
+            <span class="section-eyebrow">À propos de nous</span>
+            <h2 class="about-main-title">Qui sommes-nous ?</h2>
+          </div>
+          <div class="col-lg-6">
+            <p class="about-intro-text">
+              Génie Spatial Office SARL est un cabinet d'étude spécialisé dans la promotion du Système d'Information Géographique (SIG) et de la télédétection. Depuis sa création en 2023, l'entreprise s'engage à fournir des solutions géospatiales innovantes et personnalisées, mettant l'accent sur l'excellence, l'innovation et la collaboration.
+            </p>
+          </div>
+        </div>
 
+        <div class="row g-4 mt-2">
+
+          <!-- Bloc visuel gauche -->
+          <div class="col-lg-5" data-aos="fade-right" data-aos-delay="100">
+            <div class="about-visual-block">
+
+              <div class="about-img-wrapper">
+                <img src="assets/img/LOGO GSO.png" alt="Logo Génie Spatial Office" class="about-logo-img">
+                <div class="about-img-deco"></div>
               </div>
-              <!--<a href="#" class="read-more"><span>Lire plus</span><i class="bi bi-arrow-right"></i></a> -->
 
-          <div class="col-xl-7">
-            <div class="row gy-4 icon-boxes">
+              <div class="about-founding-badge" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-patch-check-fill"></i>
+                <div>
+                  <strong>Fondé en Avril 2023</strong>
+                  <span>Ouagadougou, Burkina Faso</span>
+                </div>
+              </div>
+
+              <div class="about-expertise-tags" data-aos="fade-up" data-aos-delay="250">
+                <span><i class="bi bi-map"></i> SIG</span>
+                <span><i class="bi bi-camera"></i> Télédétection</span>
+                <span><i class="bi bi-mortarboard"></i> Formation</span>
+                <span><i class="bi bi-graph-up"></i> Conseil</span>
+                <span><i class="bi bi-tools"></i> Solutions sur mesure</span>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Cartes à droite -->
+          <div class="col-lg-7">
+            <div class="row g-4">
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="150">
+                <div class="about-card about-card--histoire">
+                  <div class="about-card-icon">
+                    <i class="bi bi-buildings"></i>
+                  </div>
+                  <h3>Notre Histoire</h3>
+                  <p>Fondé en Avril 2023 par un groupe d'experts passionnés, GESPAO a connu une croissance constante, élargissant son expertise et sa clientèle dans divers secteurs au Burkina Faso et en Afrique de l'Ouest.</p>
+                </div>
+              </div>
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="icon-box">
-                  <i class="bi bi-buildings"></i>
-                  <h3>NOTRE HISTOIRE</h3>
-                  <p>Fondés en Avril 2023, Génie Spatial Office SARL est né de la vision d'un groupe d'experts passionés par les 
-                    technologies géospatiales et de leur potentiel à transformer notre manière de comprendre et d'interagir avec le monde
-                     qui nous entoure. Depuis lors, l'entreprise a connu une croissance constante, élargisssant son expertise et sa clientèle 
-                     dans divers secteurs.</p>
+                <div class="about-card about-card--mission">
+                  <div class="about-card-icon">
+                    <i class="bi bi-clipboard-pulse"></i>
+                  </div>
+                  <h3>Notre Mission</h3>
+                  <p>Fournir à nos clients des solutions géospatiales de pointe qui les aident à prendre des décisions éclairées, basées sur une compréhension approfondie de leurs besoins et les dernières technologies disponibles.</p>
                 </div>
-              </div> <!-- End Icon Box -->
+              </div>
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="250">
+                <div class="about-card about-card--valeurs">
+                  <div class="about-card-icon">
+                    <i class="bi bi-stars"></i>
+                  </div>
+                  <h3>Nos Valeurs</h3>
+                  <ul class="about-values-inline">
+                    <li><i class="bi bi-arrow-right-circle-fill"></i> Excellence</li>
+                    <li><i class="bi bi-arrow-right-circle-fill"></i> Innovation</li>
+                    <li><i class="bi bi-arrow-right-circle-fill"></i> Collaboration</li>
+                    <li><i class="bi bi-arrow-right-circle-fill"></i> Intégrité</li>
+                  </ul>
+                </div>
+              </div>
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                <div class="icon-box">
-                  <i class="bi bi-clipboard-pulse"></i>
-                  <h3>MISSION</h3>
-                  <p>Notre mission chez Génie Spatial Office SARL est de fournir à nos clients des solutions géospatiales de point qui leur 
-                    aident à prendre des décisions éclairées et stratégiques. Nous nous engageons à offrir des services de haute qualité, 
-                    basés sur une compéehension approfondie des bésoins spécifiques de chaque client et une utilisation judicieuse des derniers technologies. </p>
+                <div class="about-card about-card--durabilite">
+                  <div class="about-card-icon">
+                    <i class="bi bi-tree"></i>
+                  </div>
+                  <h3>Durabilité</h3>
+                  <p>Nous intégrons des pratiques éco-responsables dans nos processus et contribuons activement à une gestion durable des ressources naturelles et de l'environnement.</p>
                 </div>
-              </div> <!-- End Icon Box -->
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
-                <div class="icon-box">
-                  <i class="bi bi-command"></i>
-                  <h3>Vos valeurs</h3>
-                  <p class="justify">
-                    <h4>EXCELLENCE</h4>
-
-                    Nous visions l'excellence dans tout ce que nous faisons, en fournissant des solutions de haute qualité et en nous 
-                    efforcant constamment de nous améliorer. 
-
-                    <h4>Innovation</h4>
-                    Nous spmmes constamment à la recherche de nouvelles idées et technologies pour rester à la pointe de l'innovation dans le domaine de SIG et de la télédetection.
-
-                    <h4>COLLABORATION</h4>
-                    Nous croyons en l'importance de la collaboration avec nos clients et d'autres acteurs du secteur pour atteindre des resultats optimaux.
-
-
-                  </p>
-                </div>
-              </div> <!-- End Icon Box -->
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-                <div class="icon-box">
-                  <i class="bi bi-graph-up-arrow"></i>
-                  <h3>ENGAGEMENT ENVERS LA DURABILITE</h3>
-                  <p>
-
-                    Chez Génie Spatiale Office SARL, nous sommes consciente de l'importance de la durabilité environnementale dans nos 
-                    activités. C 'est pourquoi nous nous eforcons de réduire notre empreinte carbone et d'intégrer des partatiques durables 
-                    dans nos processus opérationnels.</p>
-                </div>
-              </div> <!-- End Icon Box -->
+              </div>
 
             </div>
           </div>
@@ -239,7 +230,7 @@
     <!-- Stats Section -->
     <section id="stats" class="stats section dark-background">
 
-      <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
+      <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in" loading="lazy">
 
       <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
 
@@ -247,29 +238,29 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Clients</p>
+              <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Clients satisfaits</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Projects</p>
+              <span data-purecounter-start="0" data-purecounter-end="80" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Projets réalisés</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Hours Of Support</p>
+              <span data-purecounter-start="0" data-purecounter-end="2023" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Depuis</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Workers</p>
+              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Collaborateurs</p>
             </div>
           </div><!-- End Stats Item -->
 
@@ -284,78 +275,64 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-      <p>Chez GESPAO, nous proposons une gamme complète de services en géo-informatique et technologies spatiales :</p> 
+        <h2>Nos Services</h2>
+        <p>Chez GESPAO, nous proposons une gamme complète de services en géo-informatique et technologies spatiales :</p>
       </div><!-- End Section Title -->
 
       <div class="container">
 
         <div class="row gy-4">
 
-          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item d-flex">
               <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
               <div>
-                <h4 class="title"><a href="services-details.html" class="stretched-link">Etudes géospatiales appofondies </a></h4>
-                <p class="description">Exploitation de données spatiales pour des études d'impact environnemental, de gestion des ressources et plus encore.</p>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Études géospatiales approfondies</a></h4>
+                <p class="description">Exploitation de données spatiales pour des études d'impact environnemental, de gestion des ressources naturelles et d'aménagement du territoire.</p>
               </div>
             </div>
           </div>
           <!-- End Service Item -->
 
-          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item d-flex">
               <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
               <div>
-                <h4 class="title"><a href="services-details.html" class="stretched-link">Formation en SIG        </a></h4>
-                <p class="description"> GESPAO offre des formations certifiées pour les professionnels, étudiants et techniciens.</p>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Formation en SIG</a></h4>
+                <p class="description">GESPAO offre des formations certifiées pour les professionnels, étudiants et techniciens sur les logiciels QGIS, ArcGIS et autres outils géospatiaux.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item d-flex">
               <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
               <div>
                 <h4 class="title"><a href="services-details.html" class="stretched-link">Conseil et accompagnement</a></h4>
-                <p class="description">Nous fournissons des conseils spécialisés pour optimiser l'utilisation des données géospatiales.</p>
+                <p class="description">Nous fournissons des conseils spécialisés pour optimiser l'utilisation des données géospatiales dans vos processus de décision stratégique.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item d-flex">
               <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
               <div>
                 <h4 class="title"><a href="services-details.html" class="stretched-link">Suivi et évaluation</a></h4>
-                <p class="description">GESPAO offre des outils géospatiaux avancés pour suivre et évaluer les projets en temps réel.
-                   Nous fournissons des rapports interactifs pour une prise de décision basée sur des données fiables.</p>
+                <p class="description">GESPAO offre des outils géospatiaux avancés pour suivre et évaluer les projets en temps réel. Nous fournissons des rapports interactifs pour une prise de décision basée sur des données fiables.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="500">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
             <div class="service-item d-flex">
               <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
               <div>
-                <h4 class="title"><a href="services-details.html" class="stretched-link">Dévéloppement de solutions personnalisées    </a></h4>
-                <p class="description">Nous concevons des solutions sur mesure en géomatique et SIG, adaptées aux besoins spécifiques de 
-                  chaque client. Nos outils optimisent la gestion des données spatiales et facilitent la prise de décision.</p>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Développement de solutions personnalisées</a></h4>
+                <p class="description">Nous concevons des solutions sur mesure en géomatique et SIG, adaptées aux besoins spécifiques de chaque client. Nos outils optimisent la gestion des données spatiales et facilitent la prise de décision.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
-
-<!--           <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item d-flex">
-              <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
-              <div>
-                <h4 class="title"><a href="services-details.html" class="stretched-link">Eiusmod Tempor</a></h4>
-                <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-              </div>
-            </div>
-          </div>
-           End Service Item --> 
-          
 
         </div>
 
@@ -363,61 +340,92 @@
 
     </section><!-- /Services Section -->
 
+
     <!-- Features Section -->
     <section id="features" class="features section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Features</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Pourquoi nous choisir ?</h2>
+        <p>Des solutions géospatiales de référence, portées par une expertise locale et des technologies de pointe</p>
       </div><!-- End Section Title -->
 
       <div class="container">
 
-        <div class="row gy-4 align-items-center features-item">
-          <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-            <h3>Corporis temporibus maiores provident</h3>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-            </p>
-            <a href="#" class="btn btn-get-started">Get Started</a>
+        <!-- Feature 1 : Technologies -->
+        <div class="row gy-5 align-items-center features-item mb-5">
+          <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="150">
+            <span class="feature-eyebrow"><i class="bi bi-cpu"></i> Outils &amp; Technologies</span>
+            <h3>Technologies géospatiales de pointe</h3>
+            <p>GESPAO maîtrise les outils et plateformes les plus avancés du domaine. Nos experts certifiés délivrent des résultats précis et fiables grâce aux meilleurs logiciels SIG du marché.</p>
+            <div class="feature-tech-tags">
+              <span class="tech-tag"><i class="bi bi-geo-fill"></i> QGIS</span>
+              <span class="tech-tag"><i class="bi bi-layers-fill"></i> ArcGIS</span>
+              <span class="tech-tag"><i class="bi bi-globe2"></i> Google Earth Engine</span>
+              <span class="tech-tag"><i class="bi bi-camera-fill"></i> Drone &amp; LiDAR</span>
+              <span class="tech-tag"><i class="bi bi-satellite-fill"></i> Télédétection</span>
+            </div>
+            <a href="#services" class="btn btn-get-started mt-3">Voir nos services</a>
           </div>
           <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <div class="image-stack">
-              <img src="assets/img/features-light-1.jpg" alt="" class="stack-front">
-              <img src="assets/img/features-light-2.jpg" alt="" class="stack-back">
+            <div class="feature-img-block">
+              <img src="assets/img/features-light-1.jpg" alt="Analyste SIG GESPAO sur QGIS" class="feature-img-main">
+              <div class="feature-img-overlay">
+                <img src="assets/img/features-light-2.jpg" alt="Cartographie SIG Burkina Faso" class="feature-img-secondary">
+              </div>
+              <div class="feature-badge-floating">
+                <i class="bi bi-patch-check-fill"></i>
+                <span>Standards internationaux</span>
+              </div>
             </div>
           </div>
-        </div><!-- Features Item -->
+        </div><!-- End Feature Item -->
 
-        <div class="row gy-4 align-items-stretch justify-content-between features-item ">
-          <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
-            <img src="assets/img/features-light-3.jpg" class="img-fluid" alt="">
+        <!-- Feature 2 : Expertise locale -->
+        <div class="row gy-5 align-items-center features-item">
+          <div class="col-lg-6 order-1" data-aos="zoom-out" data-aos-delay="100">
+            <div class="feature-img-full">
+              <img src="assets/img/features-light-3.jpg" class="img-fluid" alt="Expertise locale Burkina Faso — Carte des infrastructures">
+              <div class="feature-img-caption">
+                <i class="bi bi-map-fill"></i>
+                <span>Réseau infrastructures — Burkina Faso</span>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
-            <h3>Sunt consequatur ad ut est nulla</h3>
-            <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
-            <ul>
-              <li><i class="bi bi-check"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check"></i><span> Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i class="bi bi-check"></i> <span>Facilis ut et voluptatem aperiam. Autem soluta ad fugiat</span>.</li>
+          <div class="col-lg-6 order-2 ps-lg-5" data-aos="fade-up" data-aos-delay="150">
+            <span class="feature-eyebrow"><i class="bi bi-pin-map-fill"></i> Expertise Locale</span>
+            <h3>Expertise locale &amp; solutions sur mesure</h3>
+            <p>Ancrés au Burkina Faso et rayonnant en Afrique de l'Ouest, nous comprenons les enjeux locaux mieux que quiconque. Chaque solution est conçue sur mesure pour répondre aux réalités du terrain.</p>
+            <ul class="feature-checklist">
+              <li>
+                <div class="feature-check-icon"><i class="bi bi-check-lg"></i></div>
+                <span>Connaissance approfondie des contextes géographiques locaux et des données disponibles.</span>
+              </li>
+              <li>
+                <div class="feature-check-icon"><i class="bi bi-check-lg"></i></div>
+                <span>Accompagnement continu à toutes les étapes du projet, du cadrage à la livraison.</span>
+              </li>
+              <li>
+                <div class="feature-check-icon"><i class="bi bi-check-lg"></i></div>
+                <span>Résultats livrés dans les délais convenus avec un rapport qualité-prix optimal.</span>
+              </li>
             </ul>
-            <a href="#" class="btn btn-get-started align-self-start">Get Started</a>
+            <a href="#contact" class="btn btn-get-started align-self-start">Nous contacter</a>
           </div>
-        </div><!-- Features Item -->
+        </div><!-- End Feature Item -->
 
       </div>
 
     </section><!-- /Features Section -->
+
 
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Nos Projets</h2>
+        <p>Découvrez quelques-uns de nos réalisations en géomatique et technologies spatiales</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -425,101 +433,101 @@
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Card</li>
-            <li data-filter=".filter-branding">Web</li>
+            <li data-filter="*" class="filter-active">Tous</li>
+            <li data-filter=".filter-app">SIG</li>
+            <li data-filter=".filter-product">Cartographie</li>
+            <li data-filter=".filter-branding">Télédétection</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="Cartographie SIG" loading="lazy">
               <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>Cartographie SIG</h4>
+                <p>Système d'information géographique</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="Cartographie SIG" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Plus de détails" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="Carte thématique" loading="lazy">
               <div class="portfolio-info">
-                <h4>Product 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>Carte thématique</h4>
+                <p>Cartographie thématique</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Carte thématique" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Plus de détails" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="Analyse satellite" loading="lazy">
               <div class="portfolio-info">
-                <h4>Branding 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>Analyse satellite</h4>
+                <p>Télédétection &amp; traitement d'images</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Analyse satellite" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Plus de détails" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" class="img-fluid" alt="">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" class="img-fluid" alt="Gestion foncière" loading="lazy">
               <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>Gestion foncière</h4>
+                <p>SIG appliqué au foncier</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="Gestion foncière" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Plus de détails" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" class="img-fluid" alt="">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" class="img-fluid" alt="Atlas géographique" loading="lazy">
               <div class="portfolio-info">
-                <h4>Product 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>Atlas géographique</h4>
+                <p>Cartographie multi-thématique</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" title="Atlas géographique" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Plus de détails" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" class="img-fluid" alt="">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" class="img-fluid" alt="Suivi environnemental" loading="lazy">
               <div class="portfolio-info">
-                <h4>Branding 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>Suivi environnemental</h4>
+                <p>Télédétection appliquée</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="Suivi environnemental" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Plus de détails" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" class="img-fluid" alt="">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" class="img-fluid" alt="Aménagement du territoire" loading="lazy">
               <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>Aménagement du territoire</h4>
+                <p>Planification spatiale</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="Aménagement du territoire" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Plus de détails" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="Carte des infrastructures" loading="lazy">
               <div class="portfolio-info">
-                <h4>Product 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>Carte des infrastructures</h4>
+                <p>Cartographie des réseaux</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="Carte des infrastructures" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Plus de détails" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid" alt="">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid" alt="Imagerie drone" loading="lazy">
               <div class="portfolio-info">
-                <h4>Branding 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>Imagerie drone</h4>
+                <p>Télédétection par drone</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Imagerie drone" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Plus de détails" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -531,151 +539,18 @@
 
     </section><!-- /Portfolio Section -->
 
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing section">
-      
-      <!-- supprime-->
-    </section><!-- /Pricing Section -->
-
-    <!-- Faq Section -->
-    <section id="faq" class="faq section">
-        <!--supprime-->
-
-    </section><!-- /Faq Section -->
-
-    <!-- Team Section -->
-    <section id="team" class="team section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Team</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-5">
-
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
-            <div class="member-img">
-              <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-              <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="member-info text-center">
-              <h4>Walter White</h4>
-              <span>Chief Executive Officer</span>
-              <p>Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio dire flow</p>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
-            <div class="member-img">
-              <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-              <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="member-info text-center">
-              <h4>Sarah Jhonson</h4>
-              <span>Product Manager</span>
-              <p>Labore ipsam sit consequatur exercitationem rerum laboriosam laudantium aut quod dolores exercitationem ut</p>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
-            <div class="member-img">
-              <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-              <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="member-info text-center">
-              <h4>William Anderson</h4>
-              <span>CTO</span>
-              <p>Illum minima ea autem doloremque ipsum quidem quas aspernatur modi ut praesentium vel tque sed facilis at qui</p>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
-            <div class="member-img">
-              <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-              <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="member-info text-center">
-              <h4>Amanda Jepson</h4>
-              <span>Accountant</span>
-              <p>Magni voluptatem accusamus assumenda cum nisi aut qui dolorem voluptate sed et veniam quasi quam consectetur</p>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
-            <div class="member-img">
-              <img src="assets/img/team/team-5.jpg" class="img-fluid" alt="">
-              <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="member-info text-center">
-              <h4>Brian Doe</h4>
-              <span>Marketing</span>
-              <p>Qui consequuntur quos accusamus magnam quo est molestiae eius laboriosam sunt doloribus quia impedit laborum velit</p>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
-            <div class="member-img">
-              <img src="assets/img/team/team-6.jpg" class="img-fluid" alt="">
-              <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="member-info text-center">
-              <h4>Josepha Palas</h4>
-              <span>Operation</span>
-              <p>Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis fugit eligendi cupiditate vel</p>
-            </div>
-          </div><!-- End Team Member -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Team Section -->
-
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section dark-background">
 
-      <img src="assets/img/cta-bg.jpg" alt="">
+      <img src="assets/img/cta-bg.jpg" alt="GESPAO - Contactez-nous" loading="lazy">
 
       <div class="container">
         <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
           <div class="col-xl-10">
             <div class="text-center">
-              <h3>Call To Action</h3>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <a class="cta-btn" href="#">Call To Action</a>
+              <h3>Vous avez un projet géospatial ?</h3>
+              <p>Que vous soyez une institution publique, une ONG, une entreprise ou un chercheur, GESPAO est votre partenaire de confiance pour tous vos besoins en SIG, télédétection et cartographie. Contactez-nous dès aujourd'hui pour discuter de votre projet.</p>
+              <a class="cta-btn" href="#contact">Nous contacter</a>
             </div>
           </div>
         </div>
@@ -691,10 +566,9 @@
         <div class="row align-items-center">
 
           <div class="col-lg-5 info" data-aos="fade-up" data-aos-delay="100">
-            <h3>Testimonials</h3>
+            <h3>Ce que disent nos clients</h3>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+              La satisfaction de nos clients est notre priorité. Découvrez les retours d'expérience de ceux qui nous font confiance pour leurs projets géospatiaux au Burkina Faso et en Afrique de l'Ouest.
             </p>
           </div>
 
@@ -721,10 +595,10 @@
                 <div class="swiper-slide">
                   <div class="testimonial-item">
                     <div class="d-flex">
-                      <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img flex-shrink-0" alt="">
+                      <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img flex-shrink-0" alt="Amadou Ouédraogo">
                       <div>
-                        <h3>Saul Goodman</h3>
-                        <h4>Ceo &amp; Founder</h4>
+                        <h3>Amadou Ouédraogo</h3>
+                        <h4>Directeur de projet, ONG Sahel Vert</h4>
                         <div class="stars">
                           <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                         </div>
@@ -732,7 +606,7 @@
                     </div>
                     <p>
                       <i class="bi bi-quote quote-icon-left"></i>
-                      <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                      <span>L'équipe de GESPAO a réalisé une cartographie complète de notre zone d'intervention en un temps record. Leur professionnalisme et la qualité des livrables ont dépassé nos attentes. Je recommande vivement leurs services.</span>
                       <i class="bi bi-quote quote-icon-right"></i>
                     </p>
                   </div>
@@ -741,10 +615,10 @@
                 <div class="swiper-slide">
                   <div class="testimonial-item">
                     <div class="d-flex">
-                      <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img flex-shrink-0" alt="">
+                      <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img flex-shrink-0" alt="Fatimata Sawadogo">
                       <div>
-                        <h3>Sara Wilsson</h3>
-                        <h4>Designer</h4>
+                        <h3>Fatimata Sawadogo</h3>
+                        <h4>Chargée de programme, Ministère de l'Environnement</h4>
                         <div class="stars">
                           <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                         </div>
@@ -752,7 +626,7 @@
                     </div>
                     <p>
                       <i class="bi bi-quote quote-icon-left"></i>
-                      <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                      <span>GESPAO nous a fourni des analyses géospatiales précises pour notre programme de suivi environnemental. Leur maîtrise des outils SIG et leur réactivité sont remarquables. Un partenaire fiable et compétent.</span>
                       <i class="bi bi-quote quote-icon-right"></i>
                     </p>
                   </div>
@@ -761,10 +635,10 @@
                 <div class="swiper-slide">
                   <div class="testimonial-item">
                     <div class="d-flex">
-                      <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img flex-shrink-0" alt="">
+                      <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img flex-shrink-0" alt="Ibrahim Kaboré">
                       <div>
-                        <h3>Jena Karlis</h3>
-                        <h4>Store Owner</h4>
+                        <h3>Ibrahim Kaboré</h3>
+                        <h4>Ingénieur géomaticien, Bureau d'études SPATIA</h4>
                         <div class="stars">
                           <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                         </div>
@@ -772,47 +646,7 @@
                     </div>
                     <p>
                       <i class="bi bi-quote quote-icon-left"></i>
-                      <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div><!-- End testimonial item -->
-
-                <div class="swiper-slide">
-                  <div class="testimonial-item">
-                    <div class="d-flex">
-                      <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img flex-shrink-0" alt="">
-                      <div>
-                        <h3>Matt Brandon</h3>
-                        <h4>Freelancer</h4>
-                        <div class="stars">
-                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                        </div>
-                      </div>
-                    </div>
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div><!-- End testimonial item -->
-
-                <div class="swiper-slide">
-                  <div class="testimonial-item">
-                    <div class="d-flex">
-                      <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img flex-shrink-0" alt="">
-                      <div>
-                        <h3>John Larson</h3>
-                        <h4>Entrepreneur</h4>
-                        <div class="stars">
-                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                        </div>
-                      </div>
-                    </div>
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                      <span>La formation en SIG dispensée par GESPAO m'a permis de maîtriser QGIS et Google Earth Engine en quelques semaines. Des formateurs compétents, une approche pratique et un contenu adapté aux réalités africaines.</span>
                       <i class="bi bi-quote quote-icon-right"></i>
                     </p>
                   </div>
@@ -835,8 +669,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Recent Posts</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Actualités &amp; Ressources</h2>
+        <p>Restez informés des dernières tendances en géomatique et technologies spatiales</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -847,21 +681,21 @@
             <article>
 
               <div class="post-img">
-                <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
+                <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid" loading="lazy">
               </div>
 
-              <p class="post-category">Politics</p>
+              <p class="post-category">SIG &amp; Cartographie</p>
 
               <h2 class="title">
-                <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos</a>
+                <a href="blog-details.html">L'importance du SIG dans la gestion des ressources naturelles</a>
               </h2>
 
               <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0" loading="lazy">
                 <div class="post-meta">
-                  <p class="post-author">Maria Doe</p>
+                  <p class="post-author">Équipe GESPAO</p>
                   <p class="post-date">
-                    <time datetime="2022-01-01">Jan 1, 2022</time>
+                    <time datetime="2024-06-01">1 Juin 2024</time>
                   </p>
                 </div>
               </div>
@@ -873,21 +707,21 @@
             <article>
 
               <div class="post-img">
-                <img src="assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
+                <img src="assets/img/blog/blog-2.jpg" alt="" class="img-fluid" loading="lazy">
               </div>
 
-              <p class="post-category">Sports</p>
+              <p class="post-category">Télédétection</p>
 
               <h2 class="title">
-                <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
+                <a href="blog-details.html">Utilisation des drones en télédétection : avantages et applications</a>
               </h2>
 
               <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author-2.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <img src="assets/img/blog/blog-author-2.jpg" alt="" class="img-fluid post-author-img flex-shrink-0" loading="lazy">
                 <div class="post-meta">
-                  <p class="post-author">Allisa Mayer</p>
+                  <p class="post-author">Équipe GESPAO</p>
                   <p class="post-date">
-                    <time datetime="2022-01-01">Jun 5, 2022</time>
+                    <time datetime="2024-09-15">15 Sept. 2024</time>
                   </p>
                 </div>
               </div>
@@ -899,21 +733,21 @@
             <article>
 
               <div class="post-img">
-                <img src="assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
+                <img src="assets/img/blog/blog-3.jpg" alt="" class="img-fluid" loading="lazy">
               </div>
 
-              <p class="post-category">Entertainment</p>
+              <p class="post-category">Formation</p>
 
               <h2 class="title">
-                <a href="blog-details.html">Possimus soluta ut id suscipit ea ut in quo quia et soluta</a>
+                <a href="blog-details.html">QGIS vs ArcGIS : quel outil choisir pour vos projets géospatiaux ?</a>
               </h2>
 
               <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author-3.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <img src="assets/img/blog/blog-author-3.jpg" alt="" class="img-fluid post-author-img flex-shrink-0" loading="lazy">
                 <div class="post-meta">
-                  <p class="post-author">Mark Dower</p>
+                  <p class="post-author">Équipe GESPAO</p>
                   <p class="post-date">
-                    <time datetime="2022-01-01">Jun 22, 2022</time>
+                    <time datetime="2025-01-20">20 Jan. 2025</time>
                   </p>
                 </div>
               </div>
@@ -932,8 +766,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Contactez-nous</h2>
+        <p>Notre équipe est disponible pour répondre à toutes vos questions et vous accompagner dans vos projets géospatiaux</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -947,25 +781,23 @@
                 <div class="info-item" data-aos="fade" data-aos-delay="200">
                   <i class="bi bi-geo-alt"></i>
                   <h3>Adresse</h3>
-                  <p>Arrondissement 08, Secteur 36</p>
-                  <p>Ouagadougou, BURKINA FASO</p>
+                  <p>03 BP 7196 Ouagadougou 03</p>
+                  <p>Burkina Faso</p>
                 </div>
               </div><!-- End Info Item -->
 
               <div class="col-md-6">
                 <div class="info-item" data-aos="fade" data-aos-delay="300">
                   <i class="bi bi-telephone"></i>
-                  <h3>Nous contacter</h3>
-                  <p>+226 78071056</p>
-                  <p>+226 76289169</p>
+                  <h3>Téléphone</h3>
+                  <p>+226 76 25 91 69</p>
                 </div>
               </div><!-- End Info Item -->
 
               <div class="col-md-6">
                 <div class="info-item" data-aos="fade" data-aos-delay="400">
                   <i class="bi bi-envelope"></i>
-                  <h3>Ecriver nous</h3>
-                  <p>geniespatialoffice.com</p>
+                  <h3>Écrivez-nous</h3>
                   <p>geniespatialoffice@gmail.com</p>
                 </div>
               </div><!-- End Info Item -->
@@ -973,7 +805,7 @@
               <div class="col-md-6">
                 <div class="info-item" data-aos="fade" data-aos-delay="500">
                   <i class="bi bi-clock"></i>
-                  <h3>Heure d'ouverture</h3>
+                  <h3>Heures d'ouverture</h3>
                   <p>Lundi - Vendredi</p>
                   <p>8:00 - 17:00</p>
                 </div>
@@ -984,38 +816,78 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+            <form id="contactForm" class="contact-form-gespao" data-aos="fade-up" data-aos-delay="200">
               <div class="row gy-4">
 
                 <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="nom" required="">
+                  <input type="text" id="cf-name" name="name" class="form-control" placeholder="Votre nom" required>
                 </div>
 
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Votre Email" required="">
-                </div>
-
-                <div class="col-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Object" required="">
+                <div class="col-md-6">
+                  <input type="email" id="cf-email" name="email" class="form-control" placeholder="Votre Email" required>
                 </div>
 
                 <div class="col-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  <input type="text" id="cf-subject" name="subject" class="form-control" placeholder="Objet" required>
+                </div>
+
+                <div class="col-12">
+                  <textarea id="cf-message" name="message" class="form-control" rows="6" placeholder="Décrivez votre projet ou votre demande..." required></textarea>
                 </div>
 
                 <div class="col-12 text-center">
-                  <div class="loading">Chargement</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Votre message a été bien envoyé. Merci!</div>
-
-                  <button type="submit">Envoyer</button>
+                  <div class="cf-success-msg" id="cf-success" style="display:none;">
+                    <i class="bi bi-check-circle-fill"></i> Votre client email va s'ouvrir. Merci !
+                  </div>
+                  <button type="submit" class="cf-submit-btn">
+                    <i class="bi bi-send-fill"></i> Envoyer le message
+                  </button>
                 </div>
 
               </div>
             </form>
+
+            <script>
+              document.getElementById('contactForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                var name    = document.getElementById('cf-name').value.trim();
+                var email   = document.getElementById('cf-email').value.trim();
+                var subject = document.getElementById('cf-subject').value.trim();
+                var message = document.getElementById('cf-message').value.trim();
+
+                var body = 'Nom : ' + name + '\n'
+                         + 'Email : ' + email + '\n\n'
+                         + 'Message :\n' + message;
+
+                var mailto = 'mailto:geniespatialoffice@gmail.com'
+                           + '?subject=' + encodeURIComponent(subject)
+                           + '&body=' + encodeURIComponent(body);
+
+                window.location.href = mailto;
+
+                document.getElementById('cf-success').style.display = 'block';
+                setTimeout(function(){ document.getElementById('cf-success').style.display = 'none'; }, 5000);
+              });
+            </script>
           </div><!-- End Contact Form -->
 
         </div>
+
+        <!-- Google Maps -->
+        <div class="row mt-4">
+          <div class="col-12" data-aos="fade-up" data-aos-delay="300">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123836.50768574254!2d-1.6052960343750007!3d12.363566399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe2ebe900000000%3A0x726874acef8e96e!2sOuagadougou%2C%20Burkina%20Faso!5e0!3m2!1sfr!2sbf!4v1700000000000!5m2!1sfr!2sbf"
+              width="100%"
+              height="350"
+              style="border:0; border-radius: 8px;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Génie Spatial Office — Ouagadougou, Burkina Faso">
+            </iframe>
+          </div>
+        </div><!-- End Google Maps -->
 
       </div>
 
@@ -1029,68 +901,60 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Genie Spatial Office</span>
+            <span class="sitename">Génie Spatial Office</span>
           </a>
-          <p>Génie Spatial Office est plus qu'un simple cabinet d'étude, c'est un partenaire de confiance pour tous vos bésoins en matière de
-             SIG et de télédéection. Nous sommes déterminés à fournir des solutions de haute qualité et à contribuer à votre succès à long 
-             terme. Contactez-nous pour discuter de la manière dont nous pouvons vous aider à atteindre vos objetifs géospatiaux.</p>
+          <p>Génie Spatial Office SARL est plus qu'un simple cabinet d'étude, c'est un partenaire de confiance pour tous vos besoins en matière de SIG et de télédétection. Nous sommes déterminés à fournir des solutions de haute qualité et à contribuer à votre succès à long terme. Contactez-nous pour discuter de la manière dont nous pouvons vous aider à atteindre vos objectifs géospatiaux.</p>
           <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href="" aria-label="Twitter / X"><i class="bi bi-twitter-x"></i></a>
+            <a href="" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Useful Links</h4>
+          <h4>Liens utiles</h4>
           <ul>
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">À propos de nous</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Equipe of service</a></li>
-            
+            <li><a href="#hero">Accueil</a></li>
+            <li><a href="#about">À propos de nous</a></li>
+            <li><a href="#services">Nos services</a></li>
+            <li><a href="#portfolio">Nos projets</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
+          <h4>Nos Services</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="#services">Études géospatiales</a></li>
+            <li><a href="#services">Formation en SIG</a></li>
+            <li><a href="#services">Conseil &amp; accompagnement</a></li>
+            <li><a href="#services">Suivi et évaluation</a></li>
+            <li><a href="#services">Solutions personnalisées</a></li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>Contacter nous</h4>
-          <p>A108 Adam Street</p>
-          <p>Burkina Faso, NY 535022</p>
-          <p>United States</p>
-          <p class="mt-4"><strong>Phone:</strong> <span>+226 78071056</span></p>
-          <p><strong>Email:</strong> <span>geniespatialoffice@gmail.com</span></p>
+          <h4>Nous contacter</h4>
+          <p>03 BP 7196 Ouagadougou 03</p>
+          <p>Burkina Faso</p>
+          <p class="mt-4"><strong>Téléphone :</strong> <span>+226 76 25 91 69</span></p>
+          <p><strong>Email :</strong> <span>geniespatialoffice@gmail.com</span></p>
         </div>
 
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="sitename">2024 Génie Spatial Office</strong> 
-        <span> <footer>
-            <p> Tous droits réservés.</p>
-        </footer></span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] 
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>  -->
-      </div>
+      <p>© <span>Copyright</span> <strong class="sitename">2026 Génie Spatial Office SARL</strong> — <span>Tous droits réservés.</span></p>
     </div>
 
   </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/22676259169" class="whatsapp-btn" target="_blank" rel="noopener noreferrer" aria-label="Contacter GESPAO sur WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+  </a>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
